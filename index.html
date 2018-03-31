@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Train</title>
+</head>
+<body>
+    <header>
+        <h1>Riding the Rails</h1>
+    </header>
+    
+    <div class="container">
+        <table id="train-schedule">
+            <h3>Current Train Schedule</h3>
+            <tr>
+                <th id="name-display">Train Name</th>
+                <th id="destination-display">Destination</th>
+                <th id="frequency-display">Frequency (min)</th>
+                <th id="next-display">Next Arrival</th>
+                <th id="minutes-dispay">Minutes Away</th>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <form id="train-form">
+            <h3>Add Train</h3>
+            <label for="train-input" class="trainLabel">Train Name: </label>
+            <br>
+            <br>
+            <input type="text" id="train-input">
+            <br>
+            <br>
+            <label for="destination-input" class="trainLabel">Destination: </label>
+            <br>
+            <br>
+            <input type="text" id="destination-input">
+            <br>
+            <br>
+            <label for="time-input" class="trainLabel">First Train Time (Military Time)</label>
+            <br>
+            <br>
+            <input type="text" id="time-input">
+            <br>
+            <br>
+            <label for="frequency-input" class="trainLabel">Frequency (Mins)</label>
+            <br>
+            <br>
+            <input type="text" id="frequency-input">
+            <br>
+            <br>
+            <input type="submit" id="add-train" value="Submit">
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

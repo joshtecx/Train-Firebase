@@ -1,0 +1,26 @@
+body {
+    background: url("../train1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+table {
+    border: solid 2px royalblue;
+    border-spacing: 30px 0; 
+    padding: 20px;
+    background: rgba(255,255,255, 0.6);
+}
+
+form {
+    border: solid 2px royalblue;
+    padding: 20px;
+    background: rgba(255,255,255, 0.6);
+}
+
+td {
+    padding: 10px;
+}
+
+
