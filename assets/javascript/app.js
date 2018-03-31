@@ -77,7 +77,7 @@ database.ref().on("child_added", function (snapshot){
 
     // next train
     var upcomingTrain = moment().add(minutesAway, "minutes");
-    console.log("Arriving at: " + moment(upcomingTrain).format("hh:mm"));
+    console.log("Arriving at: " + moment(upcomingTrain).format("HH:mm"));
 
     var nextArrival = moment(upcomingTrain).format("hh:mm");
 
